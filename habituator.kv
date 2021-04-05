@@ -1,0 +1,18 @@
+<WelcomeScreen>:
+    FloatLayout:
+        id: "app_wrapper"
+        padding: 10
+        size: root.width * 0.7, root.height * 0.7
+        GridLayout:
+            cols: 1
+            size: root.width, root.height
+
+            GridLayout:
+                cols: 2
+                Label:
+                    text: "Password"
+                TextInput:
+                    multiline: False
+
+            Button:
+                text: "Begin"
